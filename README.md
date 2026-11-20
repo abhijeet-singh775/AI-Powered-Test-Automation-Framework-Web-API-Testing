@@ -50,7 +50,10 @@ npm run test:ui       # UI tests only
 npm run test:api      # API tests only
 npm run test:headed   # UI tests with a visible browser
 npm run report        # open the HTML report
+npm run dashboard     # open the local test dashboard
 ```
+
+The dashboard starts at `http://127.0.0.1:4173` and provides controls for running UI, API, and full test suites.
 
 ## How self-healing works
 
