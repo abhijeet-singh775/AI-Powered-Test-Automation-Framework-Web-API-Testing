@@ -1,0 +1,26 @@
+{
+  "name": "ai-powered-test-automation-framework",
+  "version": "1.0.0",
+  "description": "AI-powered end-to-end test automation framework (Web & API) with Hugging Face-based self-healing selectors",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test src/tests/ui",
+    "test:api": "playwright test src/tests/api",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report",
+    "dashboard": "node scripts/dashboard-server.js"
+  },
+  "keywords": ["playwright", "selenium", "test-automation", "self-healing", "huggingface"],
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.46.0",
+    "typescript": "^5.5.4",
+    "@types/node": "^20.14.0",
+    "selenium-webdriver": "^4.23.0",
+    "@types/selenium-webdriver": "^4.1.24"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
